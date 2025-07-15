@@ -1,3 +1,7 @@
+#ifndef LB_H
+#define LB_H
+
+
 #include "LoadBalancer.h"
 #include <iostream>
 #include <arpa/inet.h>
@@ -100,3 +104,5 @@ void LoadBalancer::start() {
 
     close(server_socket);
 }
+
+#endif // LB_H

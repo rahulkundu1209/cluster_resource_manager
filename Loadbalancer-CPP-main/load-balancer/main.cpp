@@ -1,4 +1,5 @@
 #include "LoadBalancer.h"
+#include "LB.h"
 #include <vector>
 
 int main() {
